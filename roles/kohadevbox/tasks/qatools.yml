@@ -26,7 +26,6 @@
   cpanm: name={{ item }}
   with_items:
     - HTTPD::Bench::ApacheBench
-    - Test::DBIx::Class
 
 - name: Clone Koha QA tools
   sudo_user: vagrant
